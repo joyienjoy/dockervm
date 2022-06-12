@@ -1,6 +1,6 @@
 !/bin/bash
-
 echo "Perfroming Docker Instalation"
+echo "The task of Devops"
 yum update -y
 yum install docker -y
 systectl start docker
