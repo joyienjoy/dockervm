@@ -1,0 +1,7 @@
+!/bin/bash
+
+echo "Perfroming Docker Instalation"
+yum update -y
+yum install docker -y
+systectl start docker
+systemctl status docker
