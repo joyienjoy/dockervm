@@ -1,6 +1,7 @@
 !/bin/bash
 echo "Perfroming Docker Instalation"
 echo "The task of Devops"
+echo "Its another day"
 yum update -y
 yum install git
 yum install docker -y
